@@ -45,7 +45,7 @@ const calculate = () => {
     batteryArray = []
 }
 
-// The extract function from the input string
+// The extract function from the input.txt string
 array.map((item) => {
     batteryArray = item.split("")
     console.log("Batterie Array: ", batteryArray)
